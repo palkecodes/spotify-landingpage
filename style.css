@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu+Condensed&display=swap');
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    /* background-color: aliceblue; */
+    /* border: 2px solid black; */
+    /* justify-content: center
+    ; */
+    align-items: center;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+}
+
+#text {
+    color: whitesmoke;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 1.2rem;
+    /* margin: 0px 10px; */
+    margin-right: 15px;
+    padding: 0px 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: whitesmoke;
+    /* justify-content: center */
+    margin: 10px 10px;
+    cursor: pointer;
+    font-family: "Lilita One", sans-serif;
+    /* font-weight: bolder; */
+    font-size: 22px;
+}
+ul li a:hover{
+    /* transform: matrix(4);
+     */
+     color: rgb(126, 194, 112);
+     text-decoration: underline;
+     transition-duration: 0.2s;
+}
+
+#icon img {
+    display: inline-block;
+    position: absolute;
+    right: 230px;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    filter: invert(100%);
+
+}
+#icon input{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    height: 20px;
+    width: 200px;
+}
+#sec{
+    padding: 10px 0px;
+    margin-top: 30px;
+    font-size: 2rem;
+    transform: scale(0.9);
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+
+}
+#section{
+    /* border: 2px solid white; */
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    /* grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr; */
+    grid-template-columns: 10fr 5fr;
+}
+.cards img{
+    width: 550px;
+    height: 120px;
+    cursor: pointer;
+}
+.cards img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px grey;
+}
+#section1{
+    display: grid;
+    grid-gap: 2rem;
+    /* grid-template-rows: repeat(2fr); */
+    grid-template-columns:22rem 22rem 22rem 1rem;
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* right: 10px; */
+}
+.profile img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px white;
+    cursor: pointer;
+}
+#artist{
+    padding: 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    transform: scale(0.9);
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+#linking{
+    position: absolute;
+    left: 22px;
+    bottom: -465px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#link{
+    position: absolute;
+    left: 410px;
+    bottom: -465px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#yoyo{
+        position: absolute;
+        left: 770px;
+        bottom: -465px;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* text-decoration: none; */
+}
+#likar{
+    position: absolute;
+    right: 38px;
+    bottom: -465px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#krs{
+    position: absolute;
+    left: 22px;
+    bottom: -600px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#sanu{
+    position: absolute;
+    left: 390px;
+    bottom: -600px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#bantai{
+    position: absolute;
+    left: 765px;
+    bottom: -600px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#yag{
+    position: absolute;
+    right: 45px;
+    bottom: -600px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#raft{
+    position: absolute;
+    left: 22px;
+    bottom: -730px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#resh{
+    position: absolute;
+    left: 370px;
+    bottom: -730px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#sanaam{
+    position: absolute;
+    left: 775px;
+    bottom: -730px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+}
+#ari{
+    position: absolute;
+    right: 60px;
+    bottom: -730px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-decoration: none; */
+    /* color: black; */
+}
+#spann{
+    position: relative;
+    top: 35px;
+    left: 10px;
+    font-size: 50px;
+    font-style: italic;
+    /* color: rgb(116, 196, 163); */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* horizontal scroll bar for songs */
+#scroll{
+    position: relative;
+    top: 50px;
+    max-height: 160px;
+    /* border: 2px solid wheat; */
+    display: flex;
+    overflow-x: auto;
+}
+#scroll::-webkit-scrollbar{
+    width: 0;
+}
+.songs img {
+    min-width: 140px;
+    height: 140px;
+    line-height: 150px;
+    /* text-align: center; */
+    /* background-color: aquamarine; */
+    margin: 0 30px;
+    /* padding: 20px 20px; */
+    /* border: 2px solid white; */
+    /* box-shadow: 0px 0px 10px whitesmoke; */
+    border-radius: 5%;
+}
+#footerr{
+    height: 60vh;
+    /* border: 2px solid white; */
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+#footerr section{
+    border: 2px solid yellow;
+}
+#support h3{
+    font-family: serif;
+    color: rgb(165, 161, 161);
+    margin-bottom: 2rem;
+}
+#support{
+    list-style-type: none;
+}
+#final p{
+    text-align: center;
+    padding: 1.5rem;
+}
